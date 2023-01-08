@@ -1,0 +1,30 @@
+.container3{
+    display: flex;
+}
+
+.daftar-inp2 h3{
+    color: #2DE15B ;
+}
+
+.inp-container a{
+    color: #2DE15B;
+}
+
+.rumah-sakit{
+    height: 1250px;
+    width: 700px;
+}
+
+.daftar-inp2 select{
+    width: 555px;
+    height: 43px;
+}
+
+.syarat2{
+    margin-top: 50px;
+    width: 550px;
+}
+
+.syarat2 a{
+    color: #2DE15B;
+}

@@ -1,0 +1,76 @@
+.container{
+    background-color:#ececec;
+    display:flex;
+    justify-content:space-between;
+    width:1000px;
+    height:270px;
+  }
+  
+  .data-container{
+    position:relative;
+    left:20px;
+    width:173px;
+     height:80px;
+  }
+  
+  .name,
+  .female{
+    position: relative;
+    left: 80px;
+    top: 35px;
+    font-size:15px
+  }
+  
+  .btn-container{
+    display:flex;
+    justify-content:end;
+    align-items:end;
+    justify-content: space-around;
+    width: 350px;
+    height: 255px;
+  }
+  
+  .riwayat{
+    position:relative;
+    top: -20px;
+    
+  }
+  
+  .diagnosa,
+  .tanggal-temu,
+  .kontrol,
+  .nama-dokter{
+    width:250px;
+    height: 15px;
+    font-size:10px;
+  
+  }
+  
+  .riwayat p{
+    font-size:16px;
+  }
+  
+  .profil{
+    position: relative;
+      border-radius: var(--br-2xl);
+      top: -30px;
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      cursor: pointer;
+  }
+  
+  .btn1,
+  .btn2,
+  .btn3{
+    background:#2DE15B;
+    border:none;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 5px;
+  }
+
+  

@@ -1,0 +1,89 @@
+button {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+  
+  }
+  
+  .sidebar {
+    position:fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 100%;
+    background: #2DE15B;
+    transition: width 0.4s;
+  }
+  
+  
+  .sidebar-inner {
+    top: 0;
+    left: 0;
+    width: 300px;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    height: 72px;
+    padding: 0 1.25rem 0 0;
+    background-color: #2DE15B;
+  }
+  
+  .sidebar-burger {
+    width: 60px;
+    height: 60px;
+    
+  }
+  
+  
+  
+  .sidebar-logo {
+    height: 60px;
+  }
+  
+  .sidebar-menu {
+    display: grid;
+  }
+  
+
+  .sidebar-menu a:hover{
+    background-color: aliceblue;
+    color: #2DE15B;
+    text-align: center;
+    border-radius: 40px;
+    width: 210px;
+  }
+
+  
+
+  .sidebar-menu > a {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    height:70px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    line-height: 1;
+    padding: 0 25px;
+  }
+  
+  
+  .sidebar-menu > button > img {
+    width: 24px;
+    height: 24px;
+    
+  }
+  
+
+  .sidebar a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
+  
