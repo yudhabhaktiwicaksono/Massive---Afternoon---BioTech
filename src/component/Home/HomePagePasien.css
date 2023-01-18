@@ -22,7 +22,7 @@ body {
   display: inline-block;
 }
 
-.group-child input{
+.group-child input {
   width: 438px;
   height: 49px;
   border: none;
@@ -177,7 +177,6 @@ body {
   left: 394px;
   width: 1011px;
   height: 289px;
-  font-size: var(--font-size-12xl);
   color: var(--color-gray-800);
 }
 .group-child3,
@@ -257,10 +256,9 @@ body {
   color: var(--color-green-200);
 }
 
-.lihat-profil:hover{
+.lihat-profil:hover {
   color: #bebebe;
 }
-
 
 .group-icon,
 .vector-icon {
@@ -352,7 +350,7 @@ body {
   color: var(--color-green);
 }
 
-.view-all:hover{
+.view-all:hover {
   color: #bebebe;
 }
 .vector-icon5 {
@@ -515,7 +513,7 @@ body {
   height: 142px;
 }
 
-.slider-container{
+.slider-container {
   width: 40px;
 }
 

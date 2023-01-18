@@ -1,676 +1,674 @@
 body {
-    margin: 0;
-    line-height: normal;
-  }
-  .group-child {
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: var(--br-3xs);
-    background-color: var(--color-gray-400);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    border: 1px solid var(--color-gray-500);
-    box-sizing: border-box;
-    width: 438px;
-    height: 49px;
-  }
-  .search {
-    position: absolute;
-    top: 13px;
-    left: 11px;
-    font-weight: 600;
-    display: inline-block;
-  }
-  .icround-search-icon {
-    position: absolute;
-    top: 9px;
-    left: 401px;
-    width: 30px;
-    height: 30px;
-    overflow: hidden;
-  }
-  .rectangle-parent {
-    position: absolute;
-    top: 27px;
-    left: 394px;
-    width: 438px;
-    height: 49px;
-    text-align: center;
-    font-size: var(--font-size-xl);
-    color: var(--color-gray-2000);
-  }
-  .group-item {
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: var(--br-3xs);
-    background-color: var(--color-green-200);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    border: 1px solid var(--color-green-200);
-    box-sizing: border-box;
-    width: 270px;
-    height: 49px;
-  }
-  .pm-13-desember-2022 {
-    position: absolute;
-    top: 15px;
-    left: 13px;
-    font-weight: 600;
-    display: inline-block;
-  }
-  .rectangle-group {
-    position: absolute;
-    top: 1px;
-    left: 0;
-    width: 270px;
-    height: 49px;
-    font-size: var(--font-size-xl);
-    font-family: var(--font-inter);
-  }
-  .group-inner,
-  .pepiconsletter {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px;
-    height: 50px;
-  }
-  .pepiconsletter {
-    top: 10px;
-    left: 9px;
-    width: 32px;
-    height: 30px;
-    overflow: hidden;
-  }
-  .unsplashz-djhwouvtw-icon {
-    position: absolute;
-    top: 0;
-    left: 56px;
-    border-radius: var(--br-2xl);
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    cursor: pointer;
-  }
-  .ellipse-icon {
-    position: absolute;
-    top: 0;
-    left: 35px;
-    width: 12px;
-    height: 12px;
-  }
-  .div {
-    position: absolute;
-    top: 2px;
-    left: 38px;
-    font-weight: 600;
-    display: inline-block;
-  }
-  .ellipse-parent,
-  .group-child2 {
-    position: absolute;
-    top: 0;
-    left: 352px;
-    width: 106px;
-    height: 50px;
-  }
-  .group-child2 {
-    left: 36px;
-    width: 12px;
-    height: 12px;
-  }
-  .div1 {
-    position: absolute;
-    top: 2px;
-    left: 41px;
-    font-weight: 600;
-    display: inline-block;
-  }
-  .mdibell-outline-icon {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 30px;
-    height: 30px;
-    overflow: hidden;
-  }
-  .ellipse-group,
-  .group-parent {
-    position: absolute;
-    top: 0;
-    left: 295px;
-    width: 50px;
-    height: 50px;
-  }
-  .group-parent {
-    top: 28px;
-    left: 953px;
-    width: 458px;
-    text-align: center;
-    font-size: var(--font-size-4xs);
-    font-family: var(--font-el-messiri);
-  }
-  .latest-medical-record,
-  .past-medical-record {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-weight: 600;
-    display: inline-block;
-  }
+  margin: 0;
+  line-height: normal;
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-400);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 438px;
+  height: 49px;
+}
+.search {
+  position: absolute;
+  top: 13px;
+  left: 11px;
+  font-weight: 600;
+  display: inline-block;
+}
+.icround-search-icon {
+  position: absolute;
+  top: 9px;
+  left: 400px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 27px;
+  left: 250px;
+  width: 438px;
+  height: 49px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-2000);
+}
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-green-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-green-200);
+  box-sizing: border-box;
+  width: 270px;
+  height: 49px;
+}
+.pm-13-desember-2022 {
+  position: absolute;
+  top: 15px;
+  left: 13px;
+  font-weight: 600;
+  display: inline-block;
+}
+.rectangle-group {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 270px;
+  height: 49px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+}
+.group-inner,
+.pepiconsletter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+}
+.pepiconsletter {
+  top: 10px;
+  left: 9px;
+  width: 32px;
+  height: 30px;
+  overflow: hidden;
+}
+.unsplashz-djhwouvtw-icon {
+  position: absolute;
+  top: 0;
+  left: 56px;
+  border-radius: var(--br-2xl);
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.ellipse-icon {
+  position: absolute;
+  top: 0;
+  left: 35px;
+  width: 12px;
+  height: 12px;
+}
+.div {
+  position: absolute;
+  top: 2px;
+  left: 38px;
+  font-weight: 600;
+  display: inline-block;
+}
+.ellipse-parent,
+.group-child2 {
+  position: absolute;
+  top: 0;
+  left: 352px;
+  width: 106px;
+  height: 50px;
+}
+.group-child2 {
+  left: 36px;
+  width: 12px;
+  height: 12px;
+}
+.div1 {
+  position: absolute;
+  top: 2px;
+  left: 41px;
+  font-weight: 600;
+  display: inline-block;
+}
+.mdibell-outline-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.ellipse-group,
+.group-parent {
+  position: absolute;
+  top: 0;
+  left: 295px;
+  width: 50px;
+  height: 50px;
+}
+.group-parent {
+  top: 28px;
+  left: 800px;
+  width: 458px;
+  text-align: center;
+  font-size: var(--font-size-4xs);
+  font-family: var(--font-el-messiri);
+}
+.latest-medical-record,
+.past-medical-record {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+}
 
-  .latest-medical-record,
-  .past-medical-record:hover {
-    color: #2DE15B;
-    border-bottom: 1px solid #2DE15B;
-  }
+.latest-medical-record,
+.past-medical-record:hover {
+  color: #2de15b;
+  border-bottom: 1px solid #2de15b;
+}
 
- 
-  .past-medical-record {
-    left: 197px;
-    color: #333;
-    cursor: pointer;
-  }
-  .latest-medical-record-parent,
-  .medical-record-pasien-inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 355px;
-    height: 19px;
-  }
-  .medical-record-pasien-inner {
-    top: 216px;
-    left: 394px;
-    color: var(--color-green-200);
-  }
-  .medical-record-pasien-child {
-    position: absolute;
-    top: 237px;
-    left: 394px;
-    background-color: var(--color-green-200);
-    width: 177px;
-    height: 2px;
-  }
-  .rectangle-div {
-    top: 0;
-    left: 0;
-    background-color: #ececec;
-    width: 1017px;
-    height: 245px;
-    
-  }
-  .eye-icon,
-  .see-detail {
-    position: relative;
-    flex-shrink: 0;
-  }
-  .see-detail {
-    display: inline-block;
-    width: 63px;
-  }
-  .eye-icon {
-    width: 14px;
-    height: 14px;
-    overflow: hidden;
-  }
-  .frame-wrapper,
-  .see-detail-parent {
-    top: 0;
-    left: 0;
-    width: 87px;
-    height: 18px;
-  }
-  .see-detail-parent {
-    border-radius: var(--br-2xs);
-    background-color: var(--color-green-200);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: var(--gap-0);
-  }
-  .frame-wrapper {
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  .pdf {
-    position: relative;
-    display: inline-block;
-    width: 33px;
-    flex-shrink: 0;
-  }
-  .frame-container,
-  .pdf-parent {
-    position: absolute;
-    top: 0;
-    width: 56px;
-    height: 18px;
-  }
-  .pdf-parent {
-    left: 0;
-    border-radius: var(--br-2xs);
-    background-color: var(--color-green-200);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: var(--gap-0);
-  }
-  .frame-container {
-    left: 165px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  .cetak,
-  .printer-icon {
-    position: relative;
-    flex-shrink: 0;
-  }
-  .cetak {
-    display: inline-block;
-    width: 39px;
-  }
-  .printer-icon {
-    width: 11px;
-    height: 11px;
-    overflow: hidden;
-  }
-  .cetak-parent {
-    top: 0;
-    left: 0;
-    border-radius: var(--br-2xs);
-    background-color: var(--color-green-200);
-    width: 58px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: var(--gap-0);
-  }
-  .cetak-parent,
-  .group-div {
-    position: absolute;
-    height: 18px;
-  }
-  .group-div {
-    top: 0;
-    left: 97px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    width: 58px;
-  }
-  
+.past-medical-record {
+  left: 197px;
+  color: #333;
+  cursor: pointer;
+}
+.latest-medical-record-parent,
+.medical-record-pasien-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 355px;
+  height: 19px;
+}
+.medical-record-pasien-inner {
+  top: 216px;
+  left: 250px;
+  color: var(--color-green-200);
+}
+.medical-record-pasien-child {
+  position: absolute;
+  top: 237px;
+  left: 250px;
+  background-color: var(--color-green-200);
+  width: 177px;
+  height: 2px;
+}
+.rectangle-div {
+  top: 0;
+  left: 0;
+  background-color: #ececec;
+  width: 1017px;
+  height: 245px;
+}
+.eye-icon,
+.see-detail {
+  position: relative;
+  flex-shrink: 0;
+}
+.see-detail {
+  display: inline-block;
+  width: 63px;
+}
+.eye-icon {
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+}
+.frame-wrapper,
+.see-detail-parent {
+  top: 0;
+  left: 0;
+  width: 87px;
+  height: 18px;
+}
+.see-detail-parent {
+  border-radius: var(--br-2xs);
+  background-color: var(--color-green-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-0);
+}
+.frame-wrapper {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.pdf {
+  position: relative;
+  display: inline-block;
+  width: 33px;
+  flex-shrink: 0;
+}
+.frame-container,
+.pdf-parent {
+  position: absolute;
+  top: 0;
+  width: 56px;
+  height: 18px;
+}
+.pdf-parent {
+  left: 0;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-green-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-0);
+}
+.frame-container {
+  left: 165px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cetak,
+.printer-icon {
+  position: relative;
+  flex-shrink: 0;
+}
+.cetak {
+  display: inline-block;
+  width: 39px;
+}
+.printer-icon {
+  width: 11px;
+  height: 11px;
+  overflow: hidden;
+}
+.cetak-parent {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-green-200);
+  width: 58px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-0);
+}
+.cetak-parent,
+.group-div {
+  position: absolute;
+  height: 18px;
+}
+.group-div {
+  top: 0;
+  left: 97px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 58px;
+}
 
- .rectangle-container{
-  margin-top: 150px;
+.rectangle-container {
+  position: absolute;
+  margin-top: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   height: 100%;
- }
+  left: 250px;
+}
 
-  .diagnosa-singkat-pneumonia,
-  .tanggal-temu-12092022,
-  .kontrol-selanjutnya-120920 {
-    position: absolute;
-    font-size: 20px;
-    top: 98px;
-    left: 20px;
-    display: inline-block;
-  }
-  .tanggal-temu-12092022 {
-    top: 127px;
-  }
-  .kontrol-selanjutnya-120920,
-  .recorded-by-dr-gandi-sppd {
-    position: absolute;
-    top: 155px;
-    left: 20px;
-    display: inline-block;
-  }
-  .recorded-by-dr-gandi-sppd {
-    top: 208px;
-    font-size: var(--font-size-xs);
-    color: var(--color-gray-800);
-  }
-  .female-19-yo,
-  .nurul-ain-s {
-    position: absolute;
-    top: 6px;
-    left: 73px;
-    display: inline-block;
-  }
-  .female-19-yo {
-    top: 29px;
-    font-size: var(--font-size-xs);
-    color: var(--color-gray-800);
-  }
-  .unsplashz-djhwouvtw-icon1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: var(--br-2xl);
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    cursor: pointer;
-  }
-  .nurul-ain-s-parent {
-    position: absolute;
-    top: 32px;
-    left: 20px;
-    width: 173px;
-    height: 50px;
-    text-align: center;
-    font-size: var(--font-size-xl);
-  }
-  .medical-records {
-    position: absolute;
-    color: var(--color-black);
-  }
-  
-  .medical-records {
-    top: 156px;
-    left: 393px;
-    font-size: var(--font-size-6xl);
-    font-weight: 600;
-    display: inline-block;
-  }
-  .group-child3 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: var(--color-green-200);
-    width: 365px;
-    height: 1673px;
-  }
-  .medicare,
-  .save-your-health-record {
-    position: absolute;
-    display: inline-block;
-  }
-  .medicare {
-    top: 0;
-    left: 18.4px;
-    font-weight: 600;
-    background: linear-gradient(
-        92.25deg,
-        rgba(255, 255, 255, 0.2) 99.99%,
-        transparent
-      ),
-      #fff;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    width: 192.18px;
-    height: 81.95px;
-  }
-  .save-your-health-record {
-    top: 67.9px;
-    left: 0;
-    font-size: var(--font-size-2xl);
-    font-family: var(--font-inter);
-    width: 230px;
-    height: 28.1px;
-  }
-  .medicare-parent {
-    position: relative;
-    width: 230px;
-    height: 96px;
-    flex-shrink: 0;
-  }
-  .group-wrapper {
-    position: absolute;
-    top: 50px;
-    left: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .layer-2-icon,
-  .medical-record {
-    position: relative;
-    width: 27px;
-    height: 27.24px;
-    flex-shrink: 0;
-  }
-  .medical-record {
-    font-weight: 600;
-    display: inline-block;
-    width: 210px;
-    height: 34px;
-  }
-  .layer-2-parent {
-    position: absolute;
-    top: 76px;
-    left: 0;
-    border-radius: var(--br-lg);
-    background-color: var(--color-white);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    border: 1px solid var(--color-white);
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    padding: var(--padding-3xs) var(--padding-3xl);
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-lg);
-    color: var(--color-green-200);
-  }
-  .lab-report {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    width: 199px;
-    height: 34px;
-    flex-shrink: 0;
-  }
-  .layer-2-group {
-    position: absolute;
-    top: 155px;
-    left: 0;
-    border-radius: var(--br-lg);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    display: flex;
-    flex-direction: row;
-    padding: var(--padding-3xs) var(--padding-3xl);
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-lg);
-  }
-  .vector-icon {
-    position: relative;
-    width: 28px;
-    height: 29.24px;
-    flex-shrink: 0;
-  }
-  .vector-parent {
-    position: absolute;
-    top: 229px;
-    left: 0;
-    border-radius: var(--br-lg);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    display: flex;
-    flex-direction: row;
-    padding: var(--padding-3xs) var(--padding-3xl);
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-lg);
-  }
-  .history-message-icon,
-  .recent-record {
-    position: relative;
-    width: 27.4px;
-    height: 28.64px;
-    flex-shrink: 0;
-  }
-  .recent-record {
-    font-weight: 600;
-    display: inline-block;
-    width: 225px;
-    height: 34px;
-  }
-  .history-message-parent {
-    position: absolute;
-    top: 311px;
-    left: 26px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-lg);
-  }
-  .article,
-  .frame-child {
-    position: relative;
-    width: 29.5px;
-    height: 29.5px;
-    flex-shrink: 0;
-  }
-  .article {
-    font-weight: 600;
-    display: inline-block;
-    width: 125px;
-    height: 35px;
-  }
-  .frame-div {
-    position: absolute;
-    top: 388px;
-    left: 25px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 21px;
-    cursor: pointer;
-  }
-  .faq,
-  .faq-answer-bubble-customer-r {
-    position: relative;
-    width: 30.6px;
-    height: 29.85px;
-    flex-shrink: 0;
-  }
-  .faq {
-    font-weight: 600;
-    display: inline-block;
-    width: 68px;
-    height: 34px;
-  }
-  .faq-answer-bubble-customer-r-parent {
-    position: absolute;
-    top: 467px;
-    left: 24px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-start;
-    gap: 25px;
-    cursor: pointer;
-  }
-  .sign-out,
-  .vector-icon1 {
-    position: relative;
-    width: 27px;
-    height: 29px;
-    flex-shrink: 0;
-  }
-  .sign-out {
-    font-weight: 600;
-    display: inline-block;
-    width: 126px;
-    height: 34px;
-  }
-  .vector-group {
-    position: absolute;
-    top: 546px;
-    left: 24px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 23px;
-    cursor: pointer;
-  }
-  .home {
-    position: absolute;
-    top: 0;
-    left: 47px;
-    font-weight: 600;
-    display: inline-block;
-    width: 89px;
-    height: 34px;
-  }
-  .vector-icon2 {
-    position: absolute;
-    height: 71.15%;
-    width: 16.91%;
-    top: 14.86%;
-    right: 83.82%;
-    bottom: 13.99%;
-    left: -0.74%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-  }
-  .home-parent {
-    position: relative;
-    width: 136px;
-    height: 34px;
-    flex-shrink: 0;
-  }
-  .group-wrapper1 {
-    position: absolute;
-    top: 0;
-    left: 28px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    cursor: pointer;
-  }
-  .frame-parent {
-    position: relative;
-    width: 311px;
-    height: 580px;
-    flex-shrink: 0;
-  }
-  .group-frame {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .frame-wrapper1 {
-    position: absolute;
-    top: 240px;
-    left: 21px;
-    width: 311px;
-    height: 580px;
-    font-size: var(--font-size-7xl);
-    font-family: var(--font-inter);
-  }
-  .rectangle-parent1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 365px;
-    height: 1673px;
-    font-size: var(--font-size-13xl);
-    font-family: var(--font-el-messiri);
-  }
-  .medical-record-pasien {
-    position: relative;
-    background-color: var(--color-white);
-    width: 100%;
-    height: 1673px;
-    overflow: hidden;
-    text-align: left;
-    font-size: var(--font-size-base);
-    color: var(--color-white);
-    font-family: var(--font-inter);
-  }
-  
+.diagnosa-singkat-pneumonia,
+.tanggal-temu-12092022,
+.kontrol-selanjutnya-120920 {
+  position: absolute;
+  font-size: 20px;
+  top: 98px;
+  left: 20px;
+  display: inline-block;
+}
+.tanggal-temu-12092022 {
+  top: 127px;
+}
+.kontrol-selanjutnya-120920,
+.recorded-by-dr-gandi-sppd {
+  position: absolute;
+  top: 155px;
+  left: 20px;
+  display: inline-block;
+}
+.recorded-by-dr-gandi-sppd {
+  top: 208px;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-800);
+}
+.female-19-yo,
+.nurul-ain-s {
+  position: absolute;
+  top: 6px;
+  left: 73px;
+  display: inline-block;
+}
+.female-19-yo {
+  top: 29px;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-800);
+}
+.unsplashz-djhwouvtw-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xl);
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.nurul-ain-s-parent {
+  position: absolute;
+  top: 32px;
+  left: 20px;
+  width: 173px;
+  height: 50px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+}
+.medical-records {
+  position: absolute;
+  color: var(--color-black);
+}
+
+.medical-records {
+  top: 156px;
+  left: 250px;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  display: inline-block;
+}
+.group-child3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-green-200);
+  width: 365px;
+  height: 1673px;
+}
+.medicare,
+.save-your-health-record {
+  position: absolute;
+  display: inline-block;
+}
+.medicare {
+  top: 0;
+  left: 18.4px;
+  font-weight: 600;
+  background: linear-gradient(
+      92.25deg,
+      rgba(255, 255, 255, 0.2) 99.99%,
+      transparent
+    ),
+    #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 192.18px;
+  height: 81.95px;
+}
+.save-your-health-record {
+  top: 67.9px;
+  left: 0;
+  font-size: var(--font-size-2xl);
+  font-family: var(--font-inter);
+  width: 230px;
+  height: 28.1px;
+}
+.medicare-parent {
+  position: relative;
+  width: 230px;
+  height: 96px;
+  flex-shrink: 0;
+}
+.group-wrapper {
+  position: absolute;
+  top: 50px;
+  left: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.layer-2-icon,
+.medical-record {
+  position: relative;
+  width: 27px;
+  height: 27.24px;
+  flex-shrink: 0;
+}
+.medical-record {
+  font-weight: 600;
+  display: inline-block;
+  width: 210px;
+  height: 34px;
+}
+.layer-2-parent {
+  position: absolute;
+  top: 76px;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-3xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  color: var(--color-green-200);
+}
+.lab-report {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 199px;
+  height: 34px;
+  flex-shrink: 0;
+}
+.layer-2-group {
+  position: absolute;
+  top: 155px;
+  left: 0;
+  border-radius: var(--br-lg);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-3xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.vector-icon {
+  position: relative;
+  width: 28px;
+  height: 29.24px;
+  flex-shrink: 0;
+}
+.vector-parent {
+  position: absolute;
+  top: 229px;
+  left: 0;
+  border-radius: var(--br-lg);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-3xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.history-message-icon,
+.recent-record {
+  position: relative;
+  width: 27.4px;
+  height: 28.64px;
+  flex-shrink: 0;
+}
+.recent-record {
+  font-weight: 600;
+  display: inline-block;
+  width: 225px;
+  height: 34px;
+}
+.history-message-parent {
+  position: absolute;
+  top: 311px;
+  left: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.article,
+.frame-child {
+  position: relative;
+  width: 29.5px;
+  height: 29.5px;
+  flex-shrink: 0;
+}
+.article {
+  font-weight: 600;
+  display: inline-block;
+  width: 125px;
+  height: 35px;
+}
+.frame-div {
+  position: absolute;
+  top: 388px;
+  left: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 21px;
+  cursor: pointer;
+}
+.faq,
+.faq-answer-bubble-customer-r {
+  position: relative;
+  width: 30.6px;
+  height: 29.85px;
+  flex-shrink: 0;
+}
+.faq {
+  font-weight: 600;
+  display: inline-block;
+  width: 68px;
+  height: 34px;
+}
+.faq-answer-bubble-customer-r-parent {
+  position: absolute;
+  top: 467px;
+  left: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 25px;
+  cursor: pointer;
+}
+.sign-out,
+.vector-icon1 {
+  position: relative;
+  width: 27px;
+  height: 29px;
+  flex-shrink: 0;
+}
+.sign-out {
+  font-weight: 600;
+  display: inline-block;
+  width: 126px;
+  height: 34px;
+}
+.vector-group {
+  position: absolute;
+  top: 546px;
+  left: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 23px;
+  cursor: pointer;
+}
+.home {
+  position: absolute;
+  top: 0;
+  left: 47px;
+  font-weight: 600;
+  display: inline-block;
+  width: 89px;
+  height: 34px;
+}
+.vector-icon2 {
+  position: absolute;
+  height: 71.15%;
+  width: 16.91%;
+  top: 14.86%;
+  right: 83.82%;
+  bottom: 13.99%;
+  left: -0.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home-parent {
+  position: relative;
+  width: 136px;
+  height: 34px;
+  flex-shrink: 0;
+}
+.group-wrapper1 {
+  position: absolute;
+  top: 0;
+  left: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.frame-parent {
+  position: relative;
+  width: 311px;
+  height: 580px;
+  flex-shrink: 0;
+}
+.group-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper1 {
+  position: absolute;
+  top: 240px;
+  left: 21px;
+  width: 311px;
+  height: 580px;
+  font-size: var(--font-size-7xl);
+  font-family: var(--font-inter);
+}
+.rectangle-parent1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 365px;
+  height: 1673px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-el-messiri);
+}
+.medical-record-pasien {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1673px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

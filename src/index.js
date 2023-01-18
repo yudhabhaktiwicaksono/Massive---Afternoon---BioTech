@@ -1,21 +1,33 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import foto2 from "./component/images/foto2.png";
-import Card2 from './component/card_slide/card2';
-import Responsive from './component/card_slide/card_slide';
-import HomePagePasien from './component/Home/HomePagePasien';
-import Date_time from './component/date_time/date_time';
-import Medical from './component/Home/HomePagePasien_Record';
-import Card_record from './component/Home/card_record';
+import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import "../src/assets/scss/styles.scss";
+import "remixicon/fonts/remixicon.css";
+import reportWebVitals from "./reportWebVitals";
+import HomeDokter from "./component/Home/dokter/HomeDokter";
+import Splashscreen from "./component/splashscreen/Splashscreen";
+import MedicalDokter from "./component/Home/dokter/MedicalDokter";
+import Medical from "./component/Home/HomePagePasien_Record";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Register from "./component/Register";
+import Login from "./component/Login";
+import Cetak from "./component/Home/dokter/Cetak";
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-  <Medical/>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Splashscreen />}></Route>
+        <Route path="/Home" element={<HomeDokter />}></Route>
+        <Route path="/Medical" element={<Medical />}></Route>
+        <Route path="/MedicalDokter" element={<MedicalDokter />}></Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/register" element={<Register />}></Route>
+        <Route path="Cetak" element={<Cetak />}></Route>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
