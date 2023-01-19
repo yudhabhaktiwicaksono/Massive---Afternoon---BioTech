@@ -1,59 +1,57 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.container2{
-    display: flex;
+.container2 {
+  display: flex;
 }
 
-.dokter-img{
-  height:792px ;
+.dokter-img {
+  height: 792px;
   width: 620px;
 }
 
-.daftar-inp h3{
-    color: #2DE15B;
+.daftar-inp h3 {
+  color: #2de15b;
 }
 
-.daftar-img2 img{
-    height: 100%;
-    width: 100%;
+.daftar-img2 img {
+  height: 100%;
+  width: 100%;
 }
 
-.inp-container{
-    display: flex;
-    width: 800px;
-    justify-content:center ;
-    
+.inp-container {
+  display: flex;
+  width: 2000px;
+  justify-content: center;
 }
 
-.daftar-inp a{
-    color: #2DE15B;
-    text-decoration: none;
+.daftar-inp a {
+  color: #2de15b;
+  text-decoration: none;
 }
 
-form input{
-    width: 555px;
-    height: 35px;
+form input {
+  width: 555px;
+  height: 35px;
 }
 
-.syarat{
-    text-align: center;
-    width: 550px;
+.syarat {
+  text-align: center;
+  width: 550px;
 }
 
-.syarat a{
-    color: #2DE15B;
-    text-decoration: none;
+.syarat a {
+  color: #2de15b;
+  text-decoration: none;
 }
-.btn-daftar-dokter{
-    width: 555px;
-    height: 50px;
-    background-color: #3AE365;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border: none;
+.btn-daftar-dokter {
+  width: 555px;
+  height: 50px;
+  background-color: #3ae365;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
 }
-

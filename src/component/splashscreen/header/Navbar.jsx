@@ -50,7 +50,7 @@ const Navs = () => {
                 type="submit"
               >
                 <a
-                  href="/login"
+                  href="/register"
                   style={{ textDecoration: "none", color: "#2DE15B" }}
                 >
                   Daftar
