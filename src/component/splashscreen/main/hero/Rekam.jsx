@@ -5,8 +5,8 @@ function Rekam() {
     <>
       <div className="rek container-fluid">
         <div className="row">
-          <div className="ms-5 text-white">
-            <h3>Rekam Medis Elektronik</h3>
+          <div className="medis text-white">
+            <h2>Rekam Medis Elektronik</h2>
             <p>
               mediCare sebagai platform rekam medis elektronik yang cerdas dan
               lebih mudah <br />

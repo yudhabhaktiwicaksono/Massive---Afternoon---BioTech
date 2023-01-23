@@ -13,6 +13,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Register from "./component/Register";
 import Login from "./component/Login";
 import Cetak from "./component/Home/dokter/Cetak";
+import HomePageDokter from "./component/Home/dokter/HomePageDokter";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -26,6 +27,7 @@ root.render(
         <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<Register />}></Route>
         <Route path="Cetak" element={<Cetak />}></Route>
+        <Route path="HomePageDokter" element={<HomePageDokter />}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
