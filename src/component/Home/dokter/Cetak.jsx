@@ -1,4 +1,4 @@
-import Sidebar from "../../Sidebar/sidebar";
+import SidebarDokter from "../../Sidebar/sidebarDokter";
 import "./cetak.css";
 import "../global.css";
 import search from "../../images/search.png";
@@ -13,7 +13,7 @@ function Cetak() {
   return (
     <>
       <>
-        <Sidebar />
+        <SidebarDokter />
         <div>
           <div className="rectangle-parent">
             <input

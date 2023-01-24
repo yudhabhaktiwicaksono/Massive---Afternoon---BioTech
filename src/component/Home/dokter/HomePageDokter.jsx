@@ -1,7 +1,7 @@
 import React from "react";
 import "./homepagedokter.css";
 import "./medical_dokter.css";
-import Sidebar from "../../Sidebar/sidebar";
+import SidebarDokter from "../../Sidebar/sidebarDokter";
 import "../global.css";
 import search from "../../images/search.png";
 import Date_time from "../../date_time/date_time";
@@ -18,7 +18,7 @@ import grafik from "../../images/grafik.png";
 function HomePageDokter() {
   return (
     <>
-      <Sidebar />
+      <SidebarDokter />
       <div>
         <div className="rectangle-parent">
           <input

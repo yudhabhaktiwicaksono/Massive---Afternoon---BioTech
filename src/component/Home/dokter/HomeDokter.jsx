@@ -1,4 +1,4 @@
-import Sidebar from "../../Sidebar/sidebar";
+import SidebarDokter from "../../Sidebar/sidebarDokter";
 import "./home_dokter.css";
 import "../global.css";
 import search from "../../images/search.png";
@@ -9,7 +9,7 @@ import pesan from "../../images/pesan.png";
 function HomeDokter() {
   return (
     <>
-      <Sidebar />
+      <SidebarDokter />
       <div>
         <div className="rectangle-parent">
           <input

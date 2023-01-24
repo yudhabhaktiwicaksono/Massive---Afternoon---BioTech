@@ -9,8 +9,9 @@ import article from "../images/article.png";
 import faq from "../images/faq.png";
 import sign from "../images/sign.png";
 import logo from "../images/logo.png";
+import pattient from "../images/Patient.png";
 
-const Sidebar = () => {
+const SidebarDokter = () => {
   return (
     <>
       <nav className="sidebar">
@@ -24,23 +25,15 @@ const Sidebar = () => {
               {" "}
               <img src={home} /> Home
             </a>
-            <a href="/Medical">
-              <img src={medical} /> Medical Records
+            <a href="/Home">
+              <img src={pattient} /> Pattient Data
             </a>
             <a href="/MedicalDokter">
-              <img src={lab} /> Lab Reports
+              <img src={lab} /> Medical Record
             </a>
             <a href="">
               {" "}
               <img src={appoitment} /> Appoitments
-            </a>
-            <a href="">
-              {" "}
-              <img src={recent} /> Recent Records
-            </a>
-            <a href="">
-              <img src={article} />
-              Article
             </a>
             <a href="">
               <img src={faq} />
@@ -58,4 +51,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default SidebarDokter;

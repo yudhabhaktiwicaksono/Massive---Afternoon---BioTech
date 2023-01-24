@@ -26,8 +26,8 @@ root.render(
         <Route path="/MedicalDokter" element={<MedicalDokter />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<Register />}></Route>
-        <Route path="Cetak" element={<Cetak />}></Route>
-        <Route path="HomePageDokter" element={<HomePageDokter />}></Route>
+        <Route path="/  Cetak" element={<Cetak />}></Route>
+        <Route path="/HomePageDokter" element={<HomePageDokter />}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

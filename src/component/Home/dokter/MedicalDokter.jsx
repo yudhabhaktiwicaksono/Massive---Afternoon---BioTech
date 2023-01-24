@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./medical_dokter.css";
-import Sidebar from "../../Sidebar/sidebar";
+import SidebarDokter from "../../Sidebar/sidebarDokter";
 import "../global.css";
 import search from "../../images/search.png";
 import Date_time from "../../date_time/date_time";
@@ -19,7 +19,7 @@ function MedicalDokter() {
   const handleShowAdd = () => setShowAdd(true);
   return (
     <>
-      <Sidebar />
+      <SidebarDokter />
       <div>
         <div className="rectangle-parent">
           <input
